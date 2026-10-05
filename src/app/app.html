@@ -1,0 +1,37 @@
+<div class="min-h-screen flex flex-col bg-white text-slate-900 selection:bg-indigo-600 selection:text-white">
+  <!-- Pantalla de Bienvenida (Splash Screen) durante 15s con contador y botón omitir -->
+  <app-splash></app-splash>
+
+  <!-- Cabecera y Navegación Responsive con Cintillo Superior Decorativo -->
+  <app-header></app-header>
+
+  <!-- Contenedor Dinámico Principal según Vista Activa con separación para cabecera fija -->
+  <main class="flex-1 pt-[102px] sm:pt-[116px]">
+    @switch (state.currentView()) {
+      @case ('inicio') {
+        <app-hero></app-hero>
+      }
+      @case ('metodologia') {
+        <app-metodologia></app-metodologia>
+      }
+      @case ('contacto') {
+        <app-contacto></app-contacto>
+      }
+      @case ('disenador') {
+        <app-disenador></app-disenador>
+      }
+      @case ('aula') {
+        <app-aula></app-aula>
+      }
+      @case ('blog') {
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <app-blog></app-blog>
+        </div>
+      }
+    }
+  </main>
+
+  <!-- Pie de Página Institucional de AIK Soluciones Estratégicas -->
+  <app-footer></app-footer>
+</div>
+
