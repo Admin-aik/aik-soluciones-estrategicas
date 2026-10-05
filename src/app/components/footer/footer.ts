@@ -131,13 +131,20 @@ import { CourseState, AppView } from '../../services/course-state';
             <h4 class="text-slate-900 text-xs font-bold uppercase tracking-wider mb-4">
               Contacto Oficial
             </h4>
-            <div class="space-y-3 text-xs">
+            <div class="space-y-2.5 text-xs">
               <a
                 href="mailto:aiksolucionesca@gmail.com"
                 class="flex items-center gap-2 text-slate-600 hover:text-blue-700 transition-colors"
               >
                 <mat-icon class="text-xs scale-75 text-blue-600">email</mat-icon>
                 <span>aiksolucionesca&#64;gmail.com</span>
+              </a>
+              <a
+                href="mailto:ircar.rojas@aiksoluciones.com"
+                class="flex items-center gap-2 text-slate-600 hover:text-indigo-700 transition-colors"
+              >
+                <mat-icon class="text-xs scale-75 text-indigo-600">alternate_email</mat-icon>
+                <span>ircar.rojas&#64;aiksoluciones.com</span>
               </a>
               <a
                 href="https://wa.me/584242135276"

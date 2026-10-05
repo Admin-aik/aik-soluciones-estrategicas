@@ -217,7 +217,7 @@ export interface BlogPost {
                   Cerrar Lectura
                 </button>
                 <a
-                  href="mailto:aiksolucionesca@gmail.com?subject=Consulta%20sobre%20artículo:%20{{ post.title }}"
+                  href="mailto:aiksolucionesca@gmail.com?cc=ircar.rojas@aiksoluciones.com&subject=Consulta%20sobre%20artículo:%20{{ post.title }}"
                   class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-xs font-bold text-white shadow-md"
                 >
                   <mat-icon class="scale-75">send</mat-icon>

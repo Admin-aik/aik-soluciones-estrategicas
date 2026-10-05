@@ -56,8 +56,8 @@ import { CourseState } from '../../services/course-state';
               </div>
 
               <!-- Tarjetas de Canales Directos -->
-              <div class="space-y-4">
-                <!-- Email directo -->
+              <div class="space-y-3 sm:space-y-4">
+                <!-- Email Institucional Principal -->
                 <a
                   href="mailto:aiksolucionesca@gmail.com?subject=Solicitud%20de%20Consultor%C3%ADa%20Pedag%C3%B3gica%20-%20AIK"
                   class="flex items-center gap-4 rounded-2xl bg-white/5 border border-white/10 p-4 hover:bg-white/10 hover:border-cyan-400/40 transition-all group cursor-pointer"
@@ -66,9 +66,25 @@ import { CourseState } from '../../services/course-state';
                     <mat-icon>mail</mat-icon>
                   </div>
                   <div class="overflow-hidden">
-                    <p class="text-xs uppercase tracking-wider text-slate-400 font-bold">Correo Electrónico</p>
+                    <p class="text-xs uppercase tracking-wider text-slate-400 font-bold">Correo Institucional</p>
                     <p class="text-sm sm:text-base font-semibold text-white truncate group-hover:text-cyan-300 transition-colors">
                       aiksolucionesca&#64;gmail.com
+                    </p>
+                  </div>
+                </a>
+
+                <!-- Email Corporativo / Directivo -->
+                <a
+                  href="mailto:ircar.rojas@aiksoluciones.com?subject=Contacto%20Institucional%20-%20AIK%20Soluciones"
+                  class="flex items-center gap-4 rounded-2xl bg-white/5 border border-white/10 p-4 hover:bg-white/10 hover:border-indigo-400/40 transition-all group cursor-pointer"
+                >
+                  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-indigo-500/20 text-indigo-300 group-hover:scale-105 transition-transform">
+                    <mat-icon>alternate_email</mat-icon>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p class="text-xs uppercase tracking-wider text-slate-400 font-bold">Contacto Corporativo</p>
+                    <p class="text-sm sm:text-base font-semibold text-white truncate group-hover:text-indigo-300 transition-colors">
+                      ircar.rojas&#64;aiksoluciones.com
                     </p>
                   </div>
                 </a>
